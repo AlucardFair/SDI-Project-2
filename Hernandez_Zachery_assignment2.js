@@ -2,12 +2,11 @@
 Zachery Hernandez
 March 8, 2012
 Deliverable 2
-BlackBerry, Themes, Graphics
+BlackBerry, Themes, Resolutions
 */
 /*
 Functions needed
 Arrays needed
-while loop needed
 for loop needed
 */
 var devices = ["BlackBerry Bold 9700", "BlackBerry Storm 2 9550", "BlackBerry Curve 9300"],
@@ -18,6 +17,7 @@ var a = "BlackBerry Theme Studio",
 	c = "export your theme";
 var devicesLeft = 2;
 while (devicesLeft > devices.length) {
+	devicesLeft--;
 };	
 
 alert("Designing for multiple devices.");

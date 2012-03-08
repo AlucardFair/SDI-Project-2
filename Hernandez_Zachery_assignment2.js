@@ -19,5 +19,17 @@ var devicesLeft = 2;
 while (devicesLeft > devices.length) {
 	devicesLeft--;
 };	
+var chooseDevice = function(whatDevice) {
+	var device = devices[whatDevice],
+		rw = rWallpaper[deviceResolution],
+		ri = rIcons[deviceResolution],
+		console.log("For the " + device + ", make sure your wallpaper resolution is " + rw + " and your icon resolution is " + ri + " before you can " + b + " images into the " + a + ".");
+		for (var wSize = rw; wSize === true;) {
+		};
+			console.log("Your wallpaper resolution is " + rWallpaper[whatDevice] + ", you may now " + b + " wallpapers into the " + a + ".");
+			
+for (var deviceResolution = 0; deviceResolution < devices.length; deviceResolution++) {
+	var congrats = chooseDevice(deviceResolution);
+};
 
 alert("Designing for multiple devices.");

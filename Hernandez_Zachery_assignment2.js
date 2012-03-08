@@ -32,6 +32,7 @@ var chooseDevice = function(whatDevice) {
 			console.log("Your icon resolution is " + rIcons[whatDevice] + ", you may now " + b + " icons into the " + a + ".");
 			console.log("You may now " + c + " for the " + device + ". You have " + devicesLeft + " devices left.");
 			devicesLeft--;
+			congrats = "You have now designed wallpapers and icons for the " + devices[0] + ", " + devices[1] + ", " + " and the " + devices[2] + ", great job!"
 		return congrats;
 };
 
